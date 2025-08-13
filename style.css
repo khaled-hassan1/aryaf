@@ -396,7 +396,7 @@ section {
 }
 
 .about-text {
-    space-y: 2rem;
+    appearance: 2rem;
 }
 
 .about-item {
@@ -755,7 +755,9 @@ section {
 .form-group {
     margin-bottom: 1.5rem;
 }
-
+.text-right {
+  text-align: right;
+}
 .form-group input,
 .form-group textarea {
     width: 100%;
